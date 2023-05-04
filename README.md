@@ -6,9 +6,7 @@ The project uses a dataset which includes texts in Wenyang and Putonghua. The te
 The text classification model uses logistic regression. The architecture of the model is described in the file *model.py*.
 
 ## Startup instructions
-1. Install the dependencies listed in the requirements.txt file
-2. Run the train.py file to train the model on the available data
-3. Run the file predict.py to use the model to predict the text language
+...
 
 ## Example
 ...
