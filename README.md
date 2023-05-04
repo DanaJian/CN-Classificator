@@ -6,10 +6,8 @@ The text classification model uses logistic regression. The architecture of the 
 ## Dataset
 The project uses a dataset which includes texts in Wenyan and Putonghua. The texts are divided into sentences and labelled according to their class affiliation (0 - Wenyang, 1 - Putonghua). Features were identified using the jieba library. The dataset is available at the [link](https://drive.google.com/file/d/1BB6GAcq0MrarXmlbZHEfnqmfeJsdb69Q/view?usp=sharing).
 
-
-
-## Example
-...
+![Figure 1. Percentage of parts of speech](images/persentage-of-parts-of-speech.png)
+Figure 1 shows the percentage distribution of parts of speech depending on the class of the text.
 
 ## Conclusion
 The model was trained on datasets of 1 500 000 texts for each language. As a result of testing, the model achieved a classification accuracy of 0.92971.
